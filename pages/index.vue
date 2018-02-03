@@ -1,17 +1,21 @@
 <template>
   <section class="container">
     <div>
-      <h1 class="curly_bracket">{{ $t('curly_bracket') }}</h1>
-      <h1 class="directive" v-t="'directive'" />
+      <div>
+        <router-link to="/" class="curly_bracket">{{ $t('curly_bracket') }}</router-link>
+      </div>
+      <div>
+        <router-link to="/" class="directive" v-t="'directive'" />
+      </div>
 
       <hr>
 
       <p>
-        Above are two <code>&lt;h1&gt;</code> tags, with texts rendered by
+        Above are two <code>&lt;router-link&gt;</code> tags, with texts rendered by
       </p>
       <div class="large">
         <code v-pre>
-          &lt;h1 class=&quot;curly_bracket&quot;&gt;{{ $t('curly_bracket') }}&lt;/h1&gt;
+          &lt;router-link class=&quot;curly_bracket&quot;&gt;{{ $t('curly_bracket') }}&lt;/router-link&gt;
         </code>
       </div>
       <p>
@@ -19,7 +23,7 @@
       </p>
       <div class="large">
         <code v-pre>
-          &lt;h1 class=&quot;directive&quot; v-t=&quot;'directive'&quot; /&gt;
+          &lt;router-link class=&quot;directive&quot; v-t=&quot;'directive'&quot; /&gt;
         </code>
       </div>
 
