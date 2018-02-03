@@ -1,6 +1,12 @@
 # vue-i18n-ssr-directive-bug
 
-> My splendiferous Nuxt.js project
+## Demo
+
+[Online Demo: https://DaxChen.github.io/vue-i18n-ssr-directive-bug](https://DaxChen.github.io/vue-i18n-ssr-directive-bug)
+
+## Related Issue
+
+[Issue in vue-i18n]()
 
 ## Build Setup
 
