@@ -1,3 +1,4 @@
+const i18nExtensions = require('vue-i18n-extensions')
 const pkg = require('./package')
 
 module.exports = {
@@ -62,6 +63,16 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
+      }
+    }
+  },
+
+  render: {
+    // confiture `render`
+    // see Nuxt.js docs: https://nuxtjs.org/api/configuration-render#bundleRenderer
+    bundleRenderer: {
+      directives: {
+        t: i18nExtensions.directive
       }
     }
   }
