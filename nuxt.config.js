@@ -42,6 +42,10 @@ module.exports = {
   modules: [
   ],
 
+  router: {
+    base: '/vue-i18n-ssr-directive-bug/'
+  },
+
   /*
   ** Build configuration
   */
