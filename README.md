@@ -6,7 +6,7 @@
 
 ## Related Issue
 
-[Issue in vue-i18n#293](https://github.com/kazupon/vue-i18n/issues/293)
+[Issue in vue-i18n-extensions#1](https://github.com/kazupon/vue-i18n-extensions/issues/1)
 
 ## Build Setup
 
